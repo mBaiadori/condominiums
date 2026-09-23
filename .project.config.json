@@ -1,0 +1,42 @@
+{
+  "project": {
+    "name": "Default Project",
+    "description": "Estrutura padrão de governança de especificações.",
+    "version": "1.0.0",
+    "repository_url": ""
+  },
+  "categories": ["engenharia"],
+  "tags": ["backend", "frontend", "api", "database", "security"],
+  "statuses": [
+    {
+      "key": "draft",
+      "label": "DRAFT (Rascunho)",
+      "badge": "badge-neutral"
+    },
+    {
+      "key": "in_review",
+      "label": "IN_REVIEW (Em Revisão)",
+      "badge": "badge-warning"
+    },
+    {
+      "key": "approved",
+      "label": "APPROVED (Aprovado)",
+      "badge": "badge-success"
+    },
+    {
+      "key": "active",
+      "label": "ACTIVE (Ativo em Produção)",
+      "badge": "badge-primary"
+    },
+    {
+      "key": "deprecated",
+      "label": "DEPRECATED (Obsoleto)",
+      "badge": "badge-danger"
+    }
+  ],
+  "governance_rules": {
+    "min_approvals_default": 2
+  },
+  "reviewers": [],
+  "ai_template_prompt": ""
+}
